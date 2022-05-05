@@ -3,8 +3,27 @@
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
+  "build": {
+    "productName": "glimmer",
+    "appId": "com.glimmmer.app",
+    "directories": {
+      "output": "build"
+    },
+    "mac": {
+      "target": ["dmg","zip"]
+    },
+    "win": {
+      "target": ["nsis","zip"]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "distWin": "electron-builder --win --x64",
+    "distMac": "electron-builder --macos"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
