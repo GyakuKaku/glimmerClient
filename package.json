@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "glimmer",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "这个人很懒，什么都没有留下",
   "main": "main.js",
   "build": {
     "productName": "glimmer",
@@ -25,15 +25,10 @@
     "distWin": "electron-builder --win --x64",
     "distMac": "electron-builder --macos"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "Electron"
   ],
-  "author": "GitHub",
+  "author": "Gyaku",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^18.2.0"
