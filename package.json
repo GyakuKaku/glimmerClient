@@ -13,7 +13,7 @@
       "target": ["dmg","zip"]
     },
     "win": {
-      "icon": "./src/icon/favicon.ico",
+      "icon": "./src/icon/orange.png",
       "target": ["nsis","zip"]
     },
     "nsis": {
