@@ -4,7 +4,7 @@
   "description": "这个人很懒，什么都没有留下",
   "main": "main.js",
   "build": {
-    "productName": "glimmer",
+    "productName": "Glimmer",
     "appId": "com.glimmmer.app",
     "directories": {
       "output": "build"
@@ -13,6 +13,7 @@
       "target": ["dmg","zip"]
     },
     "win": {
+      "icon": "./src/icon/favicon.ico",
       "target": ["nsis","zip"]
     },
     "nsis": {
