@@ -1,6 +1,6 @@
 {
   "name": "glimmer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "这个人很懒，什么都没有留下",
   "main": "main.js",
   "build": {
